@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ritter19.github.io/eventboosterfinal/",
+  "homepage": "https://ritter19.github.io/EventBoosterFinal/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /eventboosterfinal/"
+    "build": "parcel build src/*.html --public-url /EventBoosterFinal/"
   },
   "repository": {
     "type": "git",
