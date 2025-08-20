@@ -1,28 +1,15 @@
 .footer {
-  display: flex;
-  justify-content: center;
-  padding: 60px 34px 27px 34px;
-
-  &__content {
-    text-align: center;
-    color: $fill-color;
-    font-size: $small-size;
-    line-height: 1.22;
-  }
-  &__link {
-    color: inherit;
-    &:hover,
-    &:focus {
-      color: $second-color;
-      font-weight: 700;
-      transition: all 250ms linear;
-      text-shadow: 0 0 11px $second-color;
-    }
-  }
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #fff;
 }
 
-.heart-icon {
-  color: red;
+.footer__content {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  white-space: normal;
 }
 
 @media screen and (min-width: 768px) {
